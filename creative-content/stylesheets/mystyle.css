@@ -1,0 +1,42 @@
+
+
+header {
+    align-items: center;
+}
+
+.navbar {
+    margin-bottom: 50px;
+    margin-right: 690px;
+    margin-left: -25px;
+    margin-top: 40px;
+    font-family: "palatino";
+    font-size: 12px;
+    text-align:left;
+    align-content: left;
+    position:fixed;
+}
+
+.information { 
+    color: darkslategray; 
+    text-decoration: none;
+}
+
+.imglink {
+    color: darkslategray; 
+    text-decoration: none;
+}
+       
+a:hover {
+    color: deeppink;    
+}
+ 
+.images {
+    position: absolute;
+    top: 245px;
+    left: 165px;
+    margin: 10px;
+}
+
+img {
+    border-color: white;
+}
