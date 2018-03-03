@@ -4,6 +4,10 @@ header {
     align-items: center;
 }
 
+.body {
+    margin: 60px;
+}
+
 .navbar {
     margin-bottom: 50px;
     margin-right: 690px;
@@ -35,6 +39,13 @@ a:hover {
     top: 245px;
     left: 165px;
     margin: 10px;
+}
+
+.text {
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    margin: 10px;    
 }
 
 img {
