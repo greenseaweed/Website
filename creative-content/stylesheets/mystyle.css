@@ -1,11 +1,38 @@
 
 
-.header {
-    align-items: center;
+html{
+min-height: 100%;
+margin:10px
 }
 
-.body {
+header {
+    width:100%;
+/*
+    position:fixed;
+    top: 0;
+*/
+    background-color: white;
+}
+
+body {
     margin: 60px;
+    padding-bottom:0px;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    position: relative;
+    margin-top: 1700px;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+    background-color: clear;
+    color: black;
+    text-align: center;
+}
+
+href {   
 }
 
 .navbar {
@@ -20,6 +47,34 @@
     position:fixed;
 }
 
+/*
+.navbar a:hover {
+    color: #ff45ff;
+}
+*/
+
+/*
+a.one:hover, a:active {
+    background-color: aqua;
+}
+*/
+
+/*
+h2 a.active {
+    background-color: greenyellow
+}
+*/
+
+/*
+a:hover, a:visited {
+    background-color:greenyellow;
+}
+*/
+
+.active {
+    background-color: aquamarine
+}
+
 .information { 
     color: darkslategray; 
     text-decoration: none;
@@ -29,11 +84,7 @@
     color: darkslategray; 
     text-decoration: none;
 }
-       
-a:hover {
-    color: deeppink;    
-}
- 
+    
 .images {
     position: absolute;
     top: 245px;
@@ -43,6 +94,10 @@ a:hover {
 
 .text {
     position: absolute;
+    font-family: "palatino";
+    font-size: 18px;
+    text-align:center;
+    width:700px;
     top: 260px;
     left: 200px;
     margin: 10px;    
